@@ -1,0 +1,39 @@
+.header {
+  background-color: #1AC092;
+  position: fixed;
+  z-index : 1;
+  width: 100%;
+  top:0;
+  left:0;
+  padding: 20px;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.header > div {
+  padding : 5px;
+  margin-right : 20px;
+}
+
+.brand {
+  float:left;
+}
+
+.components {
+  float: right !important;
+}
+
+.header a {
+  margin-right : 15px;
+  color: white;
+  border: 0px solid none;
+  border-radius: 10px;
+  padding: 5px 8px 5px 7px;
+  font-style: bold;
+  text-decoration: none;
+}
+
+.header a:hover {
+  background-color: #282c34;
+  padding: 8px;
+}

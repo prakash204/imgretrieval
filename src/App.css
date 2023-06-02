@@ -1,0 +1,39 @@
+.App {
+    background-color: black;
+    height: 100vh;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.retrieved {
+    padding: 0px 30px 10px 20px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    /* padding: 0px 30px 20px 20px; */
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 200px;
+    width : 300px;
+    margin: 20px;
+}
+
+.canva-button {
+    border-radius: 10px;
+    background-color:#EB421E;
+    margin:20px 100px 0px 20px;
+    width: 80px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+}
